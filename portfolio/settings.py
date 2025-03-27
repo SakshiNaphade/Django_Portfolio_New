@@ -146,8 +146,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# Activate Django-Heroku settings
-#django_heroku.settings(locals())
 
 # Redirect users after login/logout
 LOGIN_REDIRECT_URL = 'dashboard'
