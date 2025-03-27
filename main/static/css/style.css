@@ -1,19 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-nav {
-    background: #333;
-    padding: 10px;
-    text-align: center;
-}
-nav a {
+    background-color: #121212;
     color: white;
-    margin: 10px;
-    text-decoration: none;
 }
-.content {
-    padding: 20px;
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
 }
+
+/* Navbar Background Blur */
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Card Shadows */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Shadows for Better Visibility */
+h1, h2, h3 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
