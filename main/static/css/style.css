@@ -1,6 +1,6 @@
 body {
-    background-color: #121212;
-    color: white;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 /* Smooth Scrolling */
@@ -11,6 +11,7 @@ html {
 /* Navbar Background Blur */
 .navbar {
     backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
 }
 
 /* Button Hover Effect */
@@ -30,3 +31,17 @@ h1, h2, h3 {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+.hero-section {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.highlight {
+    color: #0d6efd;
+}
